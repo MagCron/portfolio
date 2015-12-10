@@ -7,9 +7,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #F8FAF7;
 }
 /* Link Styles */
 
@@ -25,11 +25,17 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #1B1919;
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
+}
+
+.name span {
+   font-size: 1.3em;
+   color:#6EA600;
+
 }
 .nav {
   display: flex;
@@ -43,7 +49,8 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #999;
+    font-size:1.5em;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,10 +64,11 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
-  background-size: cover;
+  /*  background: url('images/portland.jpg') no-repeat top center ;
+  background-size: cover;*/
   overflow: hidden;
   padding-top: 60px;
+  background: #6EA600
 }
 header {
   line-height: 1.5;
@@ -77,23 +85,23 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #F8FAF7;
+  color: #444;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #6EA600;
+  color: #999;
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
+  margin: 20px;
+  padding: 20px 30px 40px;
+  max-width: 550px;
   text-align: left;
-  background: #fff;
+  background: #FFF;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -145,9 +153,9 @@ a.social {
   display: inline-block;
   text-indent: -9999px;
   margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
+  width: 60px;
+  height: 60px;
+  background-size: 60px 60px;
   opacity: .4;
   transition: all .5s;
 }
